@@ -1,6 +1,6 @@
 using AutomovilConsola;
 
-Console.WriteLine("=== Configurador de automóviles ===\n");
+Console.WriteLine("=== Configurador de automóviles Patron de Diseño Builder ===\n");
 
 Automovil automovil;
 Director director = new Director(new AutomovilBuilder());
