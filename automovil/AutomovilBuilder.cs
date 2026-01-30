@@ -98,5 +98,8 @@ public class AutomovilBuilder
             _modelo);
     }
 
-    public static AutomovilBuilder Crear() => new();
+   public static AutomovilBuilder Crear()
+{
+    return new AutomovilBuilder();
+}
 }
