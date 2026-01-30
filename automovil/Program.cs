@@ -2,42 +2,29 @@ using AutomovilConsola;
 
 Console.WriteLine("=== Configurador de automóviles ===\n");
 
+Automovil automovil;
+Director director = new Director(new AutomovilBuilder());
+
+
 // Ejemplo 1: Automóvil básico (solo lo que queremos, el resto por defecto)
-var autoBasico = AutomovilBuilder.Crear()
-    .ConColor("Negro")
-    .ConModelo("Sedan Base")
-    .Build();
-
+automovil = director.ConstruiBasico();
 Console.WriteLine("--- Automóvil básico ---");
-Console.WriteLine(autoBasico);
+Console.WriteLine(automovil);
 Console.WriteLine();
 
-// Ejemplo 2: Automóvil totalmente personalizado
-var autoPremium = AutomovilBuilder.Crear()
-    .ConModelo("SUV Premium")
-    .ConMotor("V6 Turbo")
-    .ConColor("Azul metálico")
-    .ConLlantas("Aleación 20\"")
-    .ConSistemaSonido("Premium 12 altavoces")
-    .ConInteriores("Cuero negro")
-    .ConTechoSolar(true)
-    .ConNavegacionGps(true)
-    .Build();
-
-Console.WriteLine("--- Automóvil premium ---");
-Console.WriteLine(autoPremium);
-Console.WriteLine();
-
-var autoDeportivo = AutomovilBuilder.Crear()
-    .ConModelo("Coupé Deportivo")
-    .ConMotor("V8")
-    .ConColor("Rojo")
-    .ConLlantas("Deportivas 19\"")
-    .ConInteriores("Cuero y alcántara")
-    .Build(); 
-
+// Ejemplo 2: Automóvil deportivo
+automovil = director.ConstruirDeportivo();
 Console.WriteLine("--- Automóvil deportivo ---");
-Console.WriteLine(autoDeportivo);
+Console.WriteLine(automovil);
+Console.WriteLine();
+
+
+// Ejemplo 3: Automóvil familiar
+automovil = director.ConstruirFamiliar();
+Console.WriteLine("--- Automóvil familiar ---");
+Console.WriteLine(automovil);
+Console.WriteLine();
+
 
 Console.WriteLine("\nPulse una tecla para salir...");
 Console.ReadKey();

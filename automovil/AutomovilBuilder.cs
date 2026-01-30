@@ -1,7 +1,7 @@
 namespace AutomovilConsola;
 
 
-public class AutomovilBuilder
+public class AutomovilBuilder: IBuilder
 {
     private string _tipoMotor = "Estándar";
     private string _color = "Blanco";
@@ -98,8 +98,8 @@ public class AutomovilBuilder
             _modelo);
     }
 
-   public static AutomovilBuilder Crear()
+   public  Automovil Crear()
 {
-    return new AutomovilBuilder();
+    return new AutomovilBuilder().Build();
 }
 }
