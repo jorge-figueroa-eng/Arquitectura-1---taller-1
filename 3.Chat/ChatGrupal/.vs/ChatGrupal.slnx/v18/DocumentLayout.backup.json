@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|c:\\users\\admic\\documents\\programacion\\c#\\sabana\\patrones\\arquitectura-1---taller-1\\3.chat\\chatgrupal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|c:\\users\\admic\\documents\\programacion\\c#\\sabana\\patrones\\arquitectura-1---taller-1\\3.chat\\chatgrupal\\business\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|solutionrelative:business\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|c:\\users\\admic\\documents\\programacion\\c#\\sabana\\patrones\\arquitectura-1---taller-1\\3.chat\\chatgrupal\\business\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|solutionrelative:business\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|c:\\users\\admic\\documents\\programacion\\c#\\sabana\\patrones\\arquitectura-1---taller-1\\3.chat\\chatgrupal\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|solutionrelative:interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|c:\\users\\admic\\documents\\programacion\\c#\\sabana\\patrones\\arquitectura-1---taller-1\\3.chat\\chatgrupal\\interfaces\\ichatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22B85CE8-6FD2-4E9F-9DA3-0D2F2B4CF9D8}|ChatGrupal.csproj|solutionrelative:interfaces\\ichatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Business\\User.cs",
+              "RelativeDocumentMoniker": "Business\\User.cs",
+              "ToolTip": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Business\\User.cs",
+              "RelativeToolTip": "Business\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:01:02.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatRoom.cs",
+              "DocumentMoniker": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Business\\ChatRoom.cs",
+              "RelativeDocumentMoniker": "Business\\ChatRoom.cs",
+              "ToolTip": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Business\\ChatRoom.cs",
+              "RelativeToolTip": "Business\\ChatRoom.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:00:55.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:00:07.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IChatRoom.cs",
+              "DocumentMoniker": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Interfaces\\IChatRoom.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IChatRoom.cs",
+              "ToolTip": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Interfaces\\IChatRoom.cs",
+              "RelativeToolTip": "Interfaces\\IChatRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T19:59:50.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admic\\Documents\\Programacion\\C#\\Sabana\\Patrones\\Arquitectura-1---taller-1\\3.Chat\\ChatGrupal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T19:55:12.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
